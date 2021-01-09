@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar{width:0.5rem}
+::-webkit-scrollbar-track{background:#562459; border-radius: 50px;}
+::-webkit-scrollbar-thumb{background:#A94399; border-radius: 50px;}
+
+input{
+  text-indent: 2%;
+  outline: none;
+}
+button{
+  outline: none;
+}
+
+.btn1:hover{
+  background-color: black;
+  color: white;
+  transition: 0.3s linear;
+}
+
+.btn2:hover{
+  background-color: black;
+  color: white;
+  transition: 0.3s linear;
+}
+
+.p-15vh {padding-top: 7.5vh; padding-bottom: 7.5vh;}
+.h-screen-90 {height: 85vh;}
+.border-bg {background: #072b65;}
+.chat-bg {background: #dfebffde;}
+.received-message-bg {background: #f2f4fca2;}
+.sent-message-bg {background: #d364f5a2;color: white;}
+.w-80 {width: 80%;}
+.signout-btn {top:10px; right: 10px;}
